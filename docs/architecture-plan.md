@@ -172,23 +172,23 @@ greenhouse-watering-project/
   - zone names and thresholds
   - valve timing and watering duration
 
-- sensors/*
+- sensors/\*
   - soil and temperature reading abstractions
 
-- valves/*
+- valves/\*
   - valve open/close timing and safety checks
 
-- wifi/*
+- wifi/\*
   - Wi-Fi connection, reconnection, and MQTT publishing/subscribing
 
-- weather/*
+- weather/\*
   - fetch forecast data and parse the API response
 
-- logic/*
+- logic/\*
   - determine whether watering should happen
   - apply seasonal adjustment, rain skip, and threshold logic
 
-- display/*
+- display/\*
   - touchscreen rendering and controls
 
 ## 7. Recommended implementation order
